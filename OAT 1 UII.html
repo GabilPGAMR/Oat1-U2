@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="OAT 1 UII.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+    <script src="OAT 1 UII.js"></script>
+
+  </head>
+  <body>
+
+
+    
+    <header>
+      <div class="p-3 text-white barinicial">
+          <img src="img/SPV big white.png" class="img-fluid position-absolute top-0 end-0 p-3 logo" alt="" width="20%">
+          <div class="mb-3 fipecodigo">
+              <label for="exampleFormControlInput1" class="form-label">Código Fipe</label>
+              <input type="email" class="form-control" id="fipe" placeholder="Exemplo: 123456-7">
+              <button class="btn btn-lg btn-primary btn-block " onclick="consultaFipe()">Consultar</button>
+
+          </div>
+          
+          <div class="resptexto-10 position-absolute p-2 infotexto">
+            <p>Faça sua cotação online! Nós da Senna oferecemos os melhores preços da região!</p>
+            <a class="icon-link icon-link-hover bg-opacity-50 bg-primary-subtle" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="https://veiculos.fipe.org.br/">
+               Como Consultar o Código Fipe do meu veículo
+            </a>
+        </div>
+        <div class="afastartable"> </div>
+          <div id="resultado" class="position-absolute top-50 start-0 p-2"> </div>
+  
+          <div class="resptexto-10 position-absolute start-0 bottom-0 bg-opacity-50 bg-info p-2 shadow barrainf">
+              <p>Aqui na Senna, estamos todos os dias garantindo<b> segurança e conforto para você e sua família!</b><br>Entre em contado conosco atraves do Whatsapp: <b>(73)988592080</b></p>
+          </div>
+      </div>
+  </header>
+
+<main>
+<!--Carrossel-->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+      <img src="img/416159656_2869816919826393_4793247925124568548_n.jpg" class="d-block carrosel" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/139630616_2005082769633150_503498162793635037_n.jpg" class="d-block carrosel" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/post furto.png" class="d-block carrosel" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/Pozt 1.png" class="d-block carrosel" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/Pozt 2.png" class="d-block carrosel" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/post furto.png" class="d-block carrosel" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/416143705_2869818349826250_2250374991965803152_n.jpg" class="d-block carrosel" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</main>  
+</body>
+</html>
